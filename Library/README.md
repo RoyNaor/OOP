@@ -85,14 +85,6 @@ The **Library Management System** is a Python-based application designed to effi
 
 ---
 
-## 🔮 Future Enhancements
-- Add support for managing e-books.
-- Develop a web-based interface for remote access to the library.
-- Implement advanced analytics for user behavior and book trends.
-- Enhance reporting with dynamic visualizations.
-
----
-
 ## 📝 Example Use Case
 1. Register as a new user.
 2. Add books to the library’s inventory.
@@ -105,8 +97,8 @@ The **Library Management System** is a Python-based application designed to effi
 
 ## 📧 Contact
 For any inquiries or support, feel free to reach out:
-- **Author**: Ofek Bar Shalom
-- **GitHub Repository**: [Library Management System](https://github.com/ofekbarshalom/Python/tree/main/Library/Library22)
+- **Authors**: Ofek Bar Shalom & Roy Naor
+- **GitHub Repository**: .....
 
 ---
 
