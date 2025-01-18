@@ -51,7 +51,7 @@ The **Library Management System** is a Python-based application designed to effi
 ## 🛠️ Design Patterns Implemented
 
 ### 1️⃣ **Singleton Pattern**
-- **Usage**: Implemented in the `NotificationSystem` class to ensure only one instance of the notification manager exists throughout the application.
+- **Usage**: Implemented in the `NotificationSystem` and `Logger` classes to ensure only one instance of the notification and logger managers exists throughout the application.
 
 ### 2️⃣ **Factory Pattern**
 - **Usage**: Used in the `BookFactory` class to create `Book` objects in a consistent and efficient way.
@@ -59,12 +59,19 @@ The **Library Management System** is a Python-based application designed to effi
 ### 3️⃣ **Observer Pattern**
 - **Usage**: Utilized in the `NotificationSystem` to allow users to subscribe to notifications and receive updates about book availability or other events.
 
+### 4️⃣ **Decorator Pattern**
+- **Usage**: Utilized in the `Logger` class to wrap methods with logging functionality. Decorators like `log_decorator`, `log_search`, and `log_with_param` are used to:
+  - Log success and failure messages for method execution.
+  - Automatically handle exceptions and log errors when they occur.
+  - Log additional context, such as parameters and actions performed.
+  - Example: Wrapping a function with `log_decorator("success", "fail")` ensures any success or failure is logged automatically, reducing redundant code and centralizing logging logic.
+
 ---
 
 ## 📂 Project Structure
 
 ### Main Directories and Files:
-- **`main.py`**: Entry point of the application.
+- **`start/`**: Entry point of the application. It contains essential files to initialize and configure the library management system, like `main.py` The central script that sets up the system, initializes data
 - **`helpers/`**: Contains utility functions, file handling logic, and helpers like `FileHandler`, `Paths`, and `utils`.
 - **`design/`**: Includes implementations of design patterns such as `Observer`, `Subject`, and `NotificationSystem`.
 - **`buttons/`**: Contains logic for user actions, such as adding, searching, removing, lending, and returning books.
