@@ -44,7 +44,6 @@ The **Library Management System** is a Python-based application designed to effi
 
 ### 📊 Reports and Analytics
 - Display popular books based on loan and request counts.
-- Generate insights into library usage and trends.
 
 ---
 
