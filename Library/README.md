@@ -14,10 +14,10 @@ The **Library Management System** is a Python-based application designed to effi
 
 
 ### ▶️ Steps to Run
-1. Open a terminal and navigate to the project’s root directory.
-2. Run the main script:
+1. Open an ide (like Pycharm) and navigate to the project’s start directory.
+2. Run the Landing.py script:
    ```bash
-   python main.py
+   python landing.py
    ```
 
 ---
