@@ -56,7 +56,9 @@ The **Library Management System** is a Python-based application designed to effi
 - **Usage**: Used in the `BookFactory` class to create `Book` objects in a consistent and efficient way.
 
 ### 3️⃣ **Observer Pattern**
-- **Usage**: Utilized in the `NotificationSystem` to allow users to subscribe to notifications and receive updates about book availability or other events.
+- **Usage**: Utilized in the `NotificationSystem` to manage user notifications and updates efficiently.
+  - **Subject**: The `NotificationSystem` class acts as the **Subject**, maintaining a list of observers (users) and notifying them when relevant events occur (e.g., book availability updates).
+  - **Observers**: The `User` class instances act as **Observers**, subscribing to the `NotificationSystem` to receive updates about events like book availability or other library notifications.
 
 ### 4️⃣ **Decorator Pattern**
 - **Usage**: Utilized in the `Logger` class to wrap methods with logging functionality. Decorators like `log_decorator`, `log_search`, and `log_with_param` are used to:
@@ -70,7 +72,7 @@ The **Library Management System** is a Python-based application designed to effi
 ## 📂 Project Structure
 
 ### Main Directories and Files:
-- **`start/`**: Entry point of the application. It contains essential files to initialize and configure the library management system, like `main.py` The central script that sets up the system, initializes data
+- **`start/`**: Entry point of the application. It contains essential files to initialize and configure the library management system, like `main.py` The central script that sets up the system and initializes data
 - **`helpers/`**: Contains utility functions, file handling logic, and helpers like `FileHandler`, `Paths`, and `utils`.
 - **`design/`**: Includes implementations of design patterns such as `Observer`, `Subject`, and `NotificationSystem`.
 - **`buttons/`**: Contains logic for user actions, such as adding, searching, removing, lending, and returning books.
@@ -86,18 +88,12 @@ The **Library Management System** is a Python-based application designed to effi
 
 ## 📝 Example Use Case
 1. Register as a new user.
-2. Add books to the library’s inventory.
-3. Search for books by title, author, or genre.
-4. Lend books to users and maintain a waiting list for unavailable books.
-5. Return books and automatically notify waiting users.
-6. View popular books and analytics on library usage.
-
----
-
-## 📧 Contact
-For any inquiries or support, feel free to reach out:
-- **Authors**: Ofek Bar Shalom & Roy Naor
-- **GitHub Repository**: .....
+2. login in after registration
+3. Add books to the library’s inventory.
+4. Search for books by title, author, or genre.
+5. Lend books to users and maintain a waiting list for unavailable books.
+6. Return books and automatically notify waiting users.
+7. View popular books and analytics on library usage.
 
 ---
 
