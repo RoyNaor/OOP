@@ -9,14 +9,9 @@ The **Library Management System** is a Python-based application designed to effi
 ## 🚀 Instructions to Run the Project
 
 ### ✅ Prerequisites
-1. **Python Installation**:
+**Python Installation**:
    - Ensure Python 3.6 or higher is installed on your system.
 
-2. **Install Dependencies**:
-   - Install all required Python packages by running:
-     ```bash
-     pip install -r requirements.txt
-     ```
 
 ### ▶️ Steps to Run
 1. Open a terminal and navigate to the project’s root directory.
