@@ -85,6 +85,18 @@ The **Library Management System** is a Python-based application designed to effi
   - `logs.txt`: Application logs for debugging and tracking events.
 
 ---
+## 🛠️ Known Error: `invalid command name`
+
+During testing or runtime, you might encounter the following error:
+
+```bash
+invalid command name "xxxxdestroy"
+    while executing
+"xxxxdestroy"
+    ("after" script)
+```
+This Error does not effect the project and happen when closing an active window at the same time that an alert_lable is on the screen
+---
 
 ## 📝 Example Use Case
 1. Register as a new user.
