@@ -88,6 +88,7 @@ The **Library Management System** is a Python-based application designed to effi
 ## 🛠️ Known Error: `invalid command name`
 
 During testing or runtime, you might encounter the following error:
+This Error does not effect the project and happen when closing an active window at the same time that an alert_lable is on the screen
 
 ```bash
 invalid command name "xxxxdestroy"
@@ -95,7 +96,7 @@ invalid command name "xxxxdestroy"
 "xxxxdestroy"
     ("after" script)
 ```
-This Error does not effect the project and happen when closing an active window at the same time that an alert_lable is on the screen
+
 ---
 
 ## 📝 Example Use Case
